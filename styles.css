@@ -41,14 +41,17 @@ body {
 }
 
 .logo {
-    width: 450px;
+    display: block;
+    width: 700px;
+    max-width: 100%;
     height: auto;
-    margin-bottom: 15px;
+    margin: 0 auto;
     filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2));
 }
 
 h1 {
     font-size: 3em;
+    margin-top: 0;
     margin-bottom: 20px;
     font-weight: 700;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -186,7 +189,7 @@ h1 {
 .screenshot {
     width: 300px;
     border-radius: 20px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    mix-blend-mode: multiply;
     transition: transform 0.3s;
 }
 
